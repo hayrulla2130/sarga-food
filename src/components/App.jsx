@@ -10,8 +10,8 @@ function App() {
     return <div>
         <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
         <Body isOpen={isOpen} />
-        <Form />
-        <Footer />
+        <Form isOpen={isOpen} />
+        <Footer isOpen={isOpen} />
     </div>
 }
 
