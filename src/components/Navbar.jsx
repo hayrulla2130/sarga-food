@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-function Navbar() {
+function Navbar({ isOpen, setIsOpen }) {
 
-    const [isOpen, setIsOpen] = useState(false);
     const [prevScrollPos, setPrevScrollPos] = useState(0);
     const [visible, setVisible] = useState(true);
 

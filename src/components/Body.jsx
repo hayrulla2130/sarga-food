@@ -1,9 +1,9 @@
 import React from "react";
 import foods from "./data";
 
-function Body() {
+function Body({isOpen}) {
     return <section id="food_body">
-        <div className="food_container">
+        <div className="food_container" style={{display: isOpen ? 'none' : 'flex'}}>
             {foods.map(food => (
                 <div className="food_box">
                     <div className="food_image"><img src={food.link} /></div>

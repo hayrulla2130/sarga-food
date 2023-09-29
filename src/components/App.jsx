@@ -5,9 +5,11 @@ import Form from "./Form";
 import Footer from "./Footer";
 
 function App() {
+    const [isOpen, setIsOpen] = useState(false);
+
     return <div>
-        <Navbar />
-        <Body />
+        <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
+        <Body isOpen={isOpen} />
         <Form />
         <Footer />
     </div>
