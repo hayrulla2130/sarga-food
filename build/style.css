@@ -236,6 +236,7 @@ div{
 .footer_container{
     width: 100vw;
     padding: 100px 0;
+    display: block;
 }
 
 .footer_container .links{

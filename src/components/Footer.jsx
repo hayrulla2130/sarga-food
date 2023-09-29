@@ -1,8 +1,8 @@
 import React from "react";
 
-function Footer(isOpen) {
+function Footer({isOpen}) {
     return <section id="footer">
-        <div className="footer_container" style={{display: isOpen ? 'none' : ''}}>
+        <div className="footer_container" style={{display: isOpen ? 'none' : 'block'}}>
             <div className="links">
                 <ul className="socials">
                     <li><a href="#"><i className="fa-brands fa-youtube"></i></a></li>
