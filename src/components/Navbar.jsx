@@ -29,10 +29,10 @@ function Navbar({ isOpen, setIsOpen }) {
 
     return <header>
     <div className={`navbar ${visible ? '' : 'navbar-hidden'}`}>
-        <div className="logo"><a href="#">Sarga Food</a></div>
+        <div className="logo"><a href="/">Sarga Food</a></div>
         <ul className="links">
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="/">Blog</a></li>
+            <li><a href="/about">About</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
         <ul className="socials">
@@ -47,8 +47,8 @@ function Navbar({ isOpen, setIsOpen }) {
     <div className={`dropdown_menu ${isOpen ? 'open' : ''}`}>
         <ul></ul>
         <ul className="links">
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="/">Blog</a></li>
+            <li><a href="/about">About</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
         <ul className="socials">
