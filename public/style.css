@@ -428,6 +428,9 @@ div{
     .contact_inputs, .contact_text{
         width: 100%;
     }
+    .contact_container{
+        padding: 0;
+    }
 }
 
 

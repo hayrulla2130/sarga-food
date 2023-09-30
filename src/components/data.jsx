@@ -1,5 +1,6 @@
 const foods =[
     {
+        id: 1,
         date: '27/9/2023',
         name: 'Blog Post One',
         link: 'https://images.pexels.com/photos/2116094/pexels-photo-2116094.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -15,6 +16,7 @@ const foods =[
         Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Pharetra sit amet aliquam id diam. Amet nisl purus in mollis nunc. Eu feugiat pretium nibh ipsum. Cras fermentum odio eu feugiat. Rutrum quisque non tellus orci. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Luctus accumsan tortor posuere ac ut. Id velit ut tortor pretium viverra suspendisse potenti nullam. Iaculis nunc sed augue lacus viverra vitae congue eu. Sit amet cursus sit amet. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Duis convallis convallis tellus id interdum velit.`
     },
     {
+        id: 2,
         date: '23/9/2023',
         name: 'Blog Post Two',
         link: 'https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -30,6 +32,7 @@ const foods =[
         Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Pharetra sit amet aliquam id diam. Amet nisl purus in mollis nunc. Eu feugiat pretium nibh ipsum. Cras fermentum odio eu feugiat. Rutrum quisque non tellus orci. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Luctus accumsan tortor posuere ac ut. Id velit ut tortor pretium viverra suspendisse potenti nullam. Iaculis nunc sed augue lacus viverra vitae congue eu. Sit amet cursus sit amet. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Duis convallis convallis tellus id interdum velit.`
     },
     {
+        id: 3,
         date: '27/9/2023',
         name: 'Blog Post Three',
         link: 'https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -45,6 +48,7 @@ const foods =[
         Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Pharetra sit amet aliquam id diam. Amet nisl purus in mollis nunc. Eu feugiat pretium nibh ipsum. Cras fermentum odio eu feugiat. Rutrum quisque non tellus orci. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Luctus accumsan tortor posuere ac ut. Id velit ut tortor pretium viverra suspendisse potenti nullam. Iaculis nunc sed augue lacus viverra vitae congue eu. Sit amet cursus sit amet. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Duis convallis convallis tellus id interdum velit.`
     },
     {
+        id: 4,
         date: '27/10/2023',
         name: 'Blog Post Four',
         link: 'https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -60,6 +64,7 @@ const foods =[
         Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Pharetra sit amet aliquam id diam. Amet nisl purus in mollis nunc. Eu feugiat pretium nibh ipsum. Cras fermentum odio eu feugiat. Rutrum quisque non tellus orci. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Luctus accumsan tortor posuere ac ut. Id velit ut tortor pretium viverra suspendisse potenti nullam. Iaculis nunc sed augue lacus viverra vitae congue eu. Sit amet cursus sit amet. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Duis convallis convallis tellus id interdum velit.`
     },
     {
+        id: 5,
         date: '17/9/2023',
         name: 'Blog Post Five',
         link: 'https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -75,6 +80,7 @@ const foods =[
         Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Pharetra sit amet aliquam id diam. Amet nisl purus in mollis nunc. Eu feugiat pretium nibh ipsum. Cras fermentum odio eu feugiat. Rutrum quisque non tellus orci. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Luctus accumsan tortor posuere ac ut. Id velit ut tortor pretium viverra suspendisse potenti nullam. Iaculis nunc sed augue lacus viverra vitae congue eu. Sit amet cursus sit amet. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Duis convallis convallis tellus id interdum velit.`
     },
     {
+        id: 6,
         date: '14/9/2023',
         name: 'Blog Post Six',
         link: 'https://images.pexels.com/photos/2067423/pexels-photo-2067423.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -90,6 +96,7 @@ const foods =[
         Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Pharetra sit amet aliquam id diam. Amet nisl purus in mollis nunc. Eu feugiat pretium nibh ipsum. Cras fermentum odio eu feugiat. Rutrum quisque non tellus orci. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Luctus accumsan tortor posuere ac ut. Id velit ut tortor pretium viverra suspendisse potenti nullam. Iaculis nunc sed augue lacus viverra vitae congue eu. Sit amet cursus sit amet. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Duis convallis convallis tellus id interdum velit.`
     },
     {
+        id: 7,
         date: '8/9/2023',
         name: 'Blog Post Seven',
         link: 'https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -105,6 +112,7 @@ const foods =[
         Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Pharetra sit amet aliquam id diam. Amet nisl purus in mollis nunc. Eu feugiat pretium nibh ipsum. Cras fermentum odio eu feugiat. Rutrum quisque non tellus orci. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Luctus accumsan tortor posuere ac ut. Id velit ut tortor pretium viverra suspendisse potenti nullam. Iaculis nunc sed augue lacus viverra vitae congue eu. Sit amet cursus sit amet. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Duis convallis convallis tellus id interdum velit.`
     },
     {
+        id: 8,
         date: '1/9/2023',
         name: 'Blog Post Eight',
         link: 'https://images.pexels.com/photos/18372172/pexels-photo-18372172/free-photo-of-yaz-zamaninda-izgara.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -120,6 +128,7 @@ const foods =[
         Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Pharetra sit amet aliquam id diam. Amet nisl purus in mollis nunc. Eu feugiat pretium nibh ipsum. Cras fermentum odio eu feugiat. Rutrum quisque non tellus orci. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Luctus accumsan tortor posuere ac ut. Id velit ut tortor pretium viverra suspendisse potenti nullam. Iaculis nunc sed augue lacus viverra vitae congue eu. Sit amet cursus sit amet. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Duis convallis convallis tellus id interdum velit.`
     },
     {
+        id: 9,
         date: '17/8/2023',
         name: 'Blog Post Nine',
         link: 'https://images.pexels.com/photos/18363038/pexels-photo-18363038/free-photo-of-yemek-yumurta-canak-taze.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -135,6 +144,7 @@ const foods =[
         Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Pharetra sit amet aliquam id diam. Amet nisl purus in mollis nunc. Eu feugiat pretium nibh ipsum. Cras fermentum odio eu feugiat. Rutrum quisque non tellus orci. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Luctus accumsan tortor posuere ac ut. Id velit ut tortor pretium viverra suspendisse potenti nullam. Iaculis nunc sed augue lacus viverra vitae congue eu. Sit amet cursus sit amet. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Duis convallis convallis tellus id interdum velit.`
     },
     {
+        id: 10,
         date: '30/9/2023',
         name: 'Blog Post Ten',
         link: 'https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -150,6 +160,7 @@ const foods =[
         Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Pharetra sit amet aliquam id diam. Amet nisl purus in mollis nunc. Eu feugiat pretium nibh ipsum. Cras fermentum odio eu feugiat. Rutrum quisque non tellus orci. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Luctus accumsan tortor posuere ac ut. Id velit ut tortor pretium viverra suspendisse potenti nullam. Iaculis nunc sed augue lacus viverra vitae congue eu. Sit amet cursus sit amet. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Duis convallis convallis tellus id interdum velit.`
     },
     {
+        id: 11,
         date: '17/9/2023',
         name: 'Blog Post Eleven',
         link: 'https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -165,6 +176,7 @@ const foods =[
         Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Pharetra sit amet aliquam id diam. Amet nisl purus in mollis nunc. Eu feugiat pretium nibh ipsum. Cras fermentum odio eu feugiat. Rutrum quisque non tellus orci. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Luctus accumsan tortor posuere ac ut. Id velit ut tortor pretium viverra suspendisse potenti nullam. Iaculis nunc sed augue lacus viverra vitae congue eu. Sit amet cursus sit amet. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Duis convallis convallis tellus id interdum velit.`
     },
     {
+        id: 12,
         date: '27/9/2023',
         name: 'Blog Post Twelve',
         link: 'https://images.pexels.com/photos/842545/pexels-photo-842545.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -180,6 +192,7 @@ const foods =[
         Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Pharetra sit amet aliquam id diam. Amet nisl purus in mollis nunc. Eu feugiat pretium nibh ipsum. Cras fermentum odio eu feugiat. Rutrum quisque non tellus orci. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Luctus accumsan tortor posuere ac ut. Id velit ut tortor pretium viverra suspendisse potenti nullam. Iaculis nunc sed augue lacus viverra vitae congue eu. Sit amet cursus sit amet. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Duis convallis convallis tellus id interdum velit.`
     },
     {
+        id: 13,
         date: '19/9/2023',
         name: 'Blog Post Thirteen',
         link: 'https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&w=800',
