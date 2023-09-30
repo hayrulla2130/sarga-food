@@ -14,9 +14,9 @@ function App() {
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Home isOpen={isOpen}/>} />
+                    <Route path="/home" element={<Home isOpen={isOpen}/>} />
                     <Route path="/about" element={<About isOpen={isOpen} />} />
-                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/contact" element={<Contact isOpen={isOpen}/>} />
                 </Routes>
             </BrowserRouter>
         </div>

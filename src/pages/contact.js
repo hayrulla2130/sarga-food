@@ -1,9 +1,9 @@
 import React from "react";
 import ContactDetails from "../components/ContactDetails";
 
-function Contact(){
+function Contact({isOpen}){
     return <div>
-        <ContactDetails />
+        <ContactDetails isOpen={isOpen}/>
     </div>
 }
 

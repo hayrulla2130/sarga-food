@@ -132,6 +132,8 @@ div{
 .food_container{
     padding: 100px 3rem 0 3rem;
     display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    width: 100vw;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
@@ -294,6 +296,7 @@ div{
     padding: 40px 0;
     height: 100%;
     letter-spacing: 0.5px;
+    line-height: 1.5;
 }
 
 .about_container .about_text .about_title{
@@ -326,34 +329,105 @@ div{
     display: flex;
     padding: 100px;
     flex-wrap: wrap;
-    gap: 100px;
+    /* gap: 100px; */
 }
 
 .contact_text{
     flex: 1 1 200;
-    max-width: 600px;
-    background-color: aquamarine;
+    width: 50%;
+    min-width: 400px;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact_text .title{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.contact_text .subtitle{
+    line-height: 1.5;
+}
+
+.contact_text .mail_phone{
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .contact_inputs{
     /* max-width: 600px; */
-    background-color: aquamarine;
+    width: 50%;
+    min-width: 400px;
     flex: 1 1 200;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
+    padding: 3rem;
 }
 
-.contact_inputs input{
+.contact_inputs div{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    /* width: 100%; */
 }
 
-.contact_inputs .names{
-    display: inline;
+.contact_inputs input{
+    margin-top: 5px;
+    border: 1px #e0e0e0 solid;
+    padding: 15px;
+    border-radius: 0;
+    flex-grow: 1;
+    flex-shrink: 1;  
 }
 
+.contact_inputs input:focus{
+    outline: 2px #000 solid;
+}
+
+.contact_inputs .message {
+    margin-top: 5px;
+    border: 1px #e0e0e0 solid;
+    height: auto;
+    min-height: 100px;
+    text-align: start;
+    justify-content: start;
+    display: block;
+    resize: vertical;
+    padding: 20px;
+}
+
+.contact_inputs .message:focus {
+    outline: 2px #000 solid;
+}
+
+.contact_inputs button{
+    border: 2px #fc221c solid;
+    height: 70px;
+    padding: 0 30px;
+    background-color: #f8dfdb;
+    color: #fc221c;
+    font-size: 14px;
+    font-weight: 500;
+    flex-shrink: 0;
+    transition: .2s;
+}
+
+.contact_inputs button:hover{
+    background-color: #fc221c;
+    color: #fff;
+}
+
+.contact_button{
+    width: 120px;
+}
+
+@media (max-width: 800px) {
+    .contact_inputs, .contact_text{
+        width: 100%;
+    }
+}
 
 
