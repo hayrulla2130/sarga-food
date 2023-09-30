@@ -8,6 +8,7 @@
 body {
     height: 100vh;
     background-color: #f8dfdb;
+    overflow-wrap: break-word;
 }
 
 li {
@@ -317,6 +318,42 @@ div{
     overflow: hidden;
 }
 
+
+/* contact */
+
+.contact_container{
+    margin-top: 100px;
+    display: flex;
+    padding: 100px;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.contact_text{
+    flex: 1 1 200;
+    max-width: 600px;
+    background-color: aquamarine;
+}
+
+.contact_inputs{
+    /* max-width: 600px; */
+    background-color: aquamarine;
+    flex: 1 1 200;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contact_inputs input{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* width: 100%; */
+}
+
+.contact_inputs .names{
+    display: inline;
+}
 
 
 
