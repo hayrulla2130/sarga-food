@@ -432,6 +432,10 @@ div{
     .contact_container{
         padding: 0;
     }
+
+    .blog_container{
+        padding: 0 3rem;
+    }
 }
 
 
