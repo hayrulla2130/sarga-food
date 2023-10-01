@@ -327,7 +327,7 @@ div{
 .contact_container{
     margin-top: 100px;
     display: flex;
-    padding: 100px;
+    /* padding: 100px; */
     flex-wrap: wrap;
     /* gap: 100px; */
 }
@@ -435,3 +435,24 @@ div{
 }
 
 
+/* blog */
+
+.blog_container{
+    margin-top: 100px;
+    padding: 50px 25vw 0 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    line-height: 1.5;
+    align-items: center;
+}
+
+.blog_container .text_align{
+    text-align: center;
+}
+
+.blog_container img{
+    width: 100%;
+    object-fit: cover;
+}

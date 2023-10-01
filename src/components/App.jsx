@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Home from "../pages/home";
 import About from "../pages/about";
 import Contact from "../pages/contact";
+import Food from "../pages/food";
 
 function App() {
     const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,7 @@ function App() {
                     <Route path="/" element={<Home isOpen={isOpen}/>} />
                     <Route path="/about" element={<About isOpen={isOpen} />} />
                     <Route path="/contact" element={<Contact isOpen={isOpen}/>} />
+                    <Route path="/food/:id" element={<Food />} />
                 </Routes>
             </BrowserRouter>
         </div>
